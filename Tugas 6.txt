@@ -1,0 +1,12 @@
+1.	CREATE TABLE tugas(
+	a int unsigned primary kry auto_increment,
+	b varchar(10) default 'merdeka' not null
+	) engine = MyISAM character set = ascii auto)increment = 100;
+
+2.	alter tavle latihan_1 engine = InnoDB;
+
+3.	alter table latihan_1
+	change b c varchar(10) not null default 'merdeka';
+4.	alter table latihan_1
+	add b date default '18:01:01'
+	after a;
